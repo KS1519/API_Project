@@ -1,5 +1,3 @@
-from calendar import CalendarAPI
-
 class CalendarAPI:
     def __init__(self):
         self.events = []

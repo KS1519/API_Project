@@ -1,5 +1,7 @@
 from flask import Flask
+from calendar import CalendarAPI
 
+from logic import CalendarAPI
 
 app = Flask(__name__)
 calendar_api = CalendarAPI()
